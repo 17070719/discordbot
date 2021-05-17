@@ -3,9 +3,9 @@
 #       CoreBot Config        #
 #                             #
 ###############################
-Bot_Token: "2a7802c106cf354d3518a2d86105f73b5a6ef1e4bb2599769db4f5ca662438c7"
+Bot_Token: "ODQzOTYwMTU5NzA5NDI5Nzcw.YKLdJg.7VQ2oE9rAY1-aAfhoGGI2noAxpg"
 # This is your bot application's token. You can get this by going to discord's developer portal, creating an application, then turning the application into a bot.
-Bot_Key: "ODQzOTYwMTU5NzA5NDI5Nzcw.YKLdJg.d4ca9991LECiyJM84aIIPxNNOt0"
+Bot_Key: ""
 # This is the bot's key. You can get a key by joining our Discord (https://corebot.dev/support) and verifying that you purchased the bot.
 Bot_Prefix: "$"
 # This is the symbol you will have to use to run all of CoreBot's commands.
@@ -40,7 +40,7 @@ Blacklist_Role: "Blacklisted"
 
 
 ### IP Command ###
-Server_IP: "Play.example.com"
+Server_IP: "Play.synixmc.net"
 # This is the IP that will be shown in the embed when running the ip command.
 IP_Embed_Header: "Server IP"
 # This is the title of the IP embed.
@@ -63,9 +63,9 @@ Chat_Logs_Blacklist:
 
 Join_Messages: "true"
 # This will enable or disable join messages.
-Join_Role: "Member"
+Join_Role: ""
 # This is the role given to users when they join. Put "-NONE" to not give a role on join.
-Join_Message_Channel: "join"
+Join_Message_Channel: "welcome"
 # This is the channel welcome mesages will be sent in.
 Join_Message: "embed"
 # This is the message sent in the join channel when a user joins. If you would like the message to be sent as an embed put "embed".
@@ -148,7 +148,7 @@ Whitelisted_Websites:
 #                                      #
 ########################################
 
-Coin_System: "true"
+Coin_System: "false"
 # This will enable or disable the coin system.
 Coin_Amount: 10
 # This is the amount of coins users will get per message.
@@ -231,11 +231,11 @@ Emoji_Unicode: "🎉"
 # This is the emoji unicode for the emoji that you want users to react to in order to enter the giveaway.
 Max_Giveaways: 5
 # This is the maximum amount of giveaways you can have running that the same time.
-Giveaway_Create_Required_Rank: "Admin"
+Giveaway_Create_Required_Rank: "| Administrator"
 # This is the rank required to run the gcreate command.
-Giveaway_Delete_Required_Rank: "Admin"
+Giveaway_Delete_Required_Rank: "| Administrator"
 # This is the rank required to run the gdelete command.
-Giveaway_ReRoll_Required_Rank: "Admin"
+Giveaway_ReRoll_Required_Rank: "| Administrator"
 # This is the rank required to run the greroll command.
 Giveaway_Channel: "giveaways"
 # This is the channel giveaways will be posted in.
