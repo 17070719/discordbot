@@ -143,123 +143,123 @@ User_Coins: "{user} has {coins} coins!"
 Help_Command:
   Regular:
     help:
-      usage: "-help"
+      usage: "$help"
       description: "View this message"
     bugreport:
-      usage: "-bugreport"
+      usage: "$bugreport"
       description: "Report a bug found on the server!"
     coins:
-      usage: "-coins"
+      usage: "$coins"
       description: "Check how many coins you have!"
     ip:
-      usage: "-ip"
+      usage: "$ip"
       description: "Get the IP of the server!"
     level:
-      usage: "-level"
+      usage: "$level"
       description: "Check your current level on the Discord server!"
     links:
-      usage: "-links"
+      usage: "$links"
       description: "Get important links related to the server!"
     suggest:
-      usage: "-suggest"
+      usage: "$suggest"
       description: "Suggest something for the server!"
     new:
-      usage: "-new"
+      usage: "$new"
       description: "Create a ticket"
     add:
-      usage: "-add"
+      usage: "$add"
       description: "Add a user to your ticket"
     remove:
-      usage: "-remove"
+      usage: "$remove"
       description: "Remove a user from your ticket"
     close:
-      usage: "-close"
+      usage: "$close"
       description: "Close your ticket"
     shop:
-      usage: "-shop"
+      usage: "$shop"
       description: "View the shop"
     buy:
-      usage: "-buy"
+      usage: "$buy"
       description: "Purchase an item from the shop"
     slot:
-      usage: "-slot"
+      usage: "$slot"
       description: "Gamble your coins"
     cointop:
-      usage: "-cointop"
+      usage: "$cointop"
       description: "View the coin leaderboard"
     leveltop:
-      usage: "-leveltop"
+      usage: "$leveltop"
       description: "View the level leaderboard"
     status:
-      usage: "-status"
+      usage: "$status"
       description: "View the status of the minecraft server"
   Admin:
     announce:
-      usage: "-announce"
+      usage: "$announce"
       description: "Announce an important message to the server in an embed!"
     ban:
-      usage: "-ban"
+      usage: "$ban"
       description: "Ban users from the guild!"
     unban:
-      usage: "-unban"
+      usage: "$unban"
       description: "Unban a user"
     blacklist:
-      usage: "-blacklist"
+      usage: "$blacklist"
       description: "Blacklist users from talking or texting."
     clear:
-      usage: "-clear"
+      usage: "$clear"
       description: "Clear a certain amount of messages!"
     install:
-      usage: "-install"
+      usage: "$install"
       description: "Install all needed Channels!"
     debug:
-      usage: "-debug"
+      usage: "$debug"
       description: "Create a debug URL"
     mute:
-      usage: "-mute"
+      usage: "$mute"
       description: "Mute a certain user!"
     unmute:
-      usage: "-unmute"
+      usage: "$unmute"
       description: "Unmute a certain user!"
     tempmute:
-      usage: "-tempmute"
+      usage: "$tempmute"
       description: "Temporarily mute a user!"
     say:
-      usage: "-say"
+      usage: "$say"
       description: "Create embeded messages!"
     setprefix:
-      usage: "-setprefix"
+      usage: "$setprefix"
       description: "Set the bot's command prefix!"
     setstatus:
-      usage: "-setstatus"
+      usage: "$setstatus"
       description: "Set the bot's current status!"
     update:
-      usage: "-update"
+      usage: "$update"
       description: "Update the users about any changes happening."
     vote:
-      usage: "-vote"
+      usage: "$vote"
       description: "Create a poll/vote for your users to vote on."
     gcreate:
-      usage: "-gcreate"
+      usage: "$gcreate"
       description: "Create giveaways"
     gdelete:
-      usage: "-gdelete"
+      usage: "$gdelete"
       description: "Delete giveaways"
     greroll:
-      usage: "-greroll"
+      usage: "$greroll"
       description: "Reroll a finished giveaway"
     filter:
-      usage: "-filter"
+      usage: "$filter"
       description: "Manage the word filter"
     key:
-      usage: "-key"
+      usage: "$key"
       description: "Install an addon"
     kick:
-      usage: "-kick"
+      usage: "$kick"
       description: "Kick a user"
     lock:
-      usage: "-lock"
+      usage: "$lock"
       description: "Turn on lockdown mode for a channel"
     unlock:
-      usage: "-unlock"
+      usage: "$unlock"
       description: "Turn off lockdown mode for a channel"
